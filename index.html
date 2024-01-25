@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Norsmither</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index-mobile.css" />
+    <link rel="stylesheet" href="./all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="./img/IMG_7110.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="mylogo">Nor<span>smither</span></a>
+      <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about-me">ABOUT</a>
+        <a href="#music">MUSIC</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+      <a href="mailto:dinhtankhanh14@gmail.com"
+        ><i class="fa-solid fa-envelope"></i
+      ></a>
+    </header>
+    <section id="home" class="home">
+      <div class="content">
+        <h3>Hi, It's Me</h3>
+        <span>Norsmither</span>
+        <h3>And I'm a <span class="mutiple-text"></span></h3>
+        <br />
+        <p>My current job is a programmer but my hobby is music production.</p>
+        <br />
+      </div>
+      <div class="image-container">
+        <img src="./img/IMG_7110.jpg" alt="Norsmither" />
+      </div>
+    </section>
+    <section id="about-me" class="about-me">
+      <div class="about">
+        <h2>About Me</h2>
+        <div class="gallery">
+          <div class="image-wrapper">
+            <img src="./img/baby.jpg" alt="about 1" />
+            <div class="caption">2001</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./img/14years-1.jpg" alt="about 2" />
+            <div class="caption">2013</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./img/14years-2.jpg" alt="about 3" />
+            <div class="caption">2014</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./img/2020-08-13.jpg" alt="about 4" />
+            <div class="caption">2020</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./img/about.jpg" alt="about 5" />
+            <div class="caption">2021</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./img/IMG_9031.jpg" alt="Description 3" />
+            <div class="caption">2022</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./img/IMG_2574.jpg" alt="Description 3" />
+            <div class="caption">2023</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./img/haha.jpg" alt="Description 3" />
+            <div class="caption">2024</div>
+          </div>
+          <p>
+            This is me, 24 years old and living in Ho Chi Minh City. That's it!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="music" class="music">
+      <h2>Music</h2>
+      <br />
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide">
+            <a href="https://push.fm/fl/emcubuocdi" target="_blank">
+              <div class="image-wrapper">
+                <img src="./img/emcubuocdi.png" alt="Em cu buoc di" />
+                <div class="caption">Em Cu Buoc Di</div>
+              </div>
+            </a>
+          </div>
+          <div class="slide">
+            <a href="https://www.youtube.com/@norsmither" target="_blank">
+              <div class="image-wrapper">
+                <img src="./img/moreonyoutube.png" alt="More on Youtube" />
+                <div class="caption">More on Youtube...</div>
+              </div>
+            </a>
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+        <button class="prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next-btn" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+      <div class="youtube">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/sZX64u9vFFc?si=jZUKPK9S2EwPBn8r"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="youtube">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dXe5pC2ik_U?si=BrkglCCkknajgKsZ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="youtube">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/sadwQtFk8hs?si=AVr0w6r10VjbKHDm"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="youtube">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/7aRdARNYCv0?si=htVikx1D-hZxV6yl"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <a href="https://www.youtube.com/@norsmither/videos" target="_blank"
+        >More videos...</a
+      >
+    </section>
+    <section id="unpublished-music" class="unpublished-music">
+      <h2>Unpublished Music</h2>
+      <br />
+      <div class="song">
+        <h3>chot.mp3</h3>
+        <audio controls controlsList="nodownload">
+          <source src="./music/chot.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div class="song">
+        <h3>xinloi.mp3</h3>
+        <audio controls controlsList="nodownload">
+          <source src="./music/xinloi_update.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <!-- Add more songs as needed -->
+    </section>
+    <section id="contact" class="contact">
+      <div class="contact-container">
+        <h2>Contact</h2>
+        <br />
+        <p>
+          If you have any questions or just want to say hi, feel free to reach
+          out!
+        </p>
+        <div class="contact-info">
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:dinhtankhanh14@gmail.com"
+              >dinhtankhanh14@gmail.com</a
+            >
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+84908779245">0908779245</a>
+          </p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="#">Ho Chi Minh City</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <form
+      id="sheetdb-form"
+      action="https://sheetdb.io/api/v1/t8ppq6v5840jk"
+      method="post"
+    >
+      <label for="email"><h2>NEWSLETTER:</h2></label>
+      <br />
+      <div class="form-group">
+        <input
+          type="text"
+          id="fullName"
+          name="data[Name]"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="data[Email]"
+          placeholder="Your email address"
+          required
+        />
+      </div>
+      <button type="submit">Subscribe</button>
+    </form>
+    <footer class="footer">
+      <div class="follow">
+        <a
+          href="https://www.facebook.com/norsmither"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa-brands fa-facebook follow_facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/norsmither/"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa-brands fa-instagram follow_instagram"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/@norsmither"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa-brands fa-youtube follow_youtube"></i
+        ></a>
+        <a
+          href="https://open.spotify.com/artist/4fLFiYyXqRPLJOpSP6ES85?si=wLSSeBnBR2m4SyhxqRnQaQ"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa-brands fa-spotify follow_facebook"></i
+        ></a>
+        <a
+          href="https://soundcloud.com/norsmither"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa-brands fa-soundcloud follow_soundcloud"></i
+        ></a>
+      </div>
+      <p class="copy">Copyright © 2024 Norsmither - All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="./index.js"></script>
